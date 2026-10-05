@@ -1,0 +1,28 @@
+# Arduino build output
+build/
+.build/
+*.elf
+*.hex
+*.bin
+*.map
+
+# Arduino IDE / temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# VS Code
+.vscode/
+
+# PlatformIO, if ever used
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Windows / OneDrive conflict files
+*conflicted copy*
