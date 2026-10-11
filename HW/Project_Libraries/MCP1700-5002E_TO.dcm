@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP1700-5002E_TO
+D IC LDO REG 250MA 5.0V
+K
+F 
+$ENDCMP
+#
+#End Doc Library

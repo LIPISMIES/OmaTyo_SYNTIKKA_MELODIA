@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TLV2372IP
+D TLV2372IP, Dual Operational Amplifier 3MHz Rail-Rail 3 to 15V, 8-Pin PDIP
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-SFU2/DSASFU100032270.pdf
+$ENDCMP
+#
+#End Doc Library

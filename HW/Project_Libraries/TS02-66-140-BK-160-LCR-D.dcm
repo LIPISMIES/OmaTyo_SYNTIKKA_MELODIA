@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TS02-66-140-BK-160-LCR-D
+D 6 x 6 mm, 14 mm Actuator Height Off PCB, 160 gf, Black, Long Crimped, Through Hole, SPST, Tactile Switch
+K
+F https://www.sameskydevices.com/product/resource/ts02.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,12 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "3296W-1-103") (type "KiCad") (uri "${KIPRJMOD}/Project_Libraries/3296W-1-103.kicad_sym") (options "") (descr ""))
+	(lib (name "EC11E15244B2") (type "KiCad") (uri "${KIPRJMOD}/Project_Libraries/EC11E15244B2.kicad_sym") (options "") (descr ""))
+	(lib (name "L78L05ACZ") (type "KiCad") (uri "${KIPRJMOD}/Project_Libraries/L78L05ACZ.kicad_sym") (options "") (descr ""))
+	(lib (name "MCP1700-5002E_TO") (type "KiCad") (uri "${KIPRJMOD}/Project_Libraries/MCP1700-5002E_TO.kicad_sym") (options "") (descr ""))
+	(lib (name "MCP4821-E_P") (type "KiCad") (uri "${KIPRJMOD}/Project_Libraries/MCP4821/MCP4821-E_P.kicad_sym") (options "") (descr ""))
+	(lib (name "PTV09A-4025F-B103") (type "KiCad") (uri "${KIPRJMOD}/Project_Libraries/PTV09A-4025F-B103.kicad_sym") (options "") (descr ""))
+	(lib (name "TL1265RQSCLR") (type "KiCad") (uri "${KIPRJMOD}/Project_Libraries/TL1265RQSCLR.kicad_sym") (options "") (descr ""))
+	(lib (name "TLV2372IP") (type "KiCad") (uri "${KIPRJMOD}/Project_Libraries/TLV2372IP.kicad_sym") (options "") (descr ""))
+	(lib (name "TS02-66-140-BK-160-LCR-D") (type "KiCad") (uri "${KIPRJMOD}/Project_Libraries/TS02-66-140-BK-160-LCR-D.kicad_sym") (options "") (descr ""))
+)

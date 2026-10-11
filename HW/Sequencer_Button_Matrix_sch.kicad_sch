@@ -1,0 +1,3375 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "cfc9db14-6bc4-4d97-9bd3-a6f106ed47e7")
+	(paper "A4")
+	(title_block
+		(title "Melodiasekvensseri")
+		(date "2026-10-09")
+		(rev "0")
+	)
+	(lib_symbols
+		(symbol "74xx:74LS138"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -7.62 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74LS138"
+				(at -7.62 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS138"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Decoder 3 to 8 active low outputs"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "TTL DECOD DECOD8"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "DIP?16*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "74LS138_1_0"
+				(pin input line
+					(at -12.7 7.62 0)
+					(length 5.08)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 5.08 0)
+					(length 5.08)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input input_low
+					(at -12.7 -10.16 0)
+					(length 5.08)
+					(name "E1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input input_low
+					(at -12.7 -7.62 0)
+					(length 5.08)
+					(name "E2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -5.08 0)
+					(length 5.08)
+					(name "E3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output output_low
+					(at 12.7 -10.16 180)
+					(length 5.08)
+					(name "O7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -17.78 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output output_low
+					(at 12.7 -7.62 180)
+					(length 5.08)
+					(name "O6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output output_low
+					(at 12.7 -5.08 180)
+					(length 5.08)
+					(name "O5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output output_low
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name "O4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output output_low
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "O3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output output_low
+					(at 12.7 2.54 180)
+					(length 5.08)
+					(name "O2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output output_low
+					(at 12.7 5.08 180)
+					(length 5.08)
+					(name "O1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output output_low
+					(at 12.7 7.62 180)
+					(length 5.08)
+					(name "O0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 15.24 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74LS138_1_1"
+				(rectangle
+					(start -7.62 10.16)
+					(end 7.62 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "TL1265RQSCLR:TL1265RQSCLR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "S"
+				(at 26.67 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "TL1265RQSCLR"
+				(at 26.67 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "TL1265RQSCLR"
+				(at 26.67 -89.84 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/TL1275CA2WA500QPB.pdf"
+				(at 26.67 -189.84 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "ROTARY, 350mA, 125VAC , Panel Mount, Through Hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "12"
+				(at 26.67 -389.84 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "612-TL1265RQSCLR"
+				(at 26.67 -489.84 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/TL1265RQSCLR?qs=KGuh8pVqpP84jDX0RVeGMg%3D%3D"
+				(at 26.67 -589.84 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "E-Switch"
+				(at 26.67 -689.84 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TL1265RQSCLR"
+				(at 26.67 -789.84 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "TL1265RQSCLR_1_1"
+				(rectangle
+					(start 5.08 7.62)
+					(end 25.4 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 30.48 -2.54 180)
+					(length 5.08)
+					(name "NO_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "NO_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 0 180)
+					(length 5.08)
+					(name "COM_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "COM_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -15.24 90)
+					(length 5.08)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 12.7 270)
+					(length 5.08)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 167.64 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "081a1e38-8a8e-42b0-b885-5c6facd51cd0")
+	)
+	(junction
+		(at 218.44 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a139112-e1d2-4db1-9c5e-985d06b06bbe")
+	)
+	(junction
+		(at 152.4 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d824f11-97ac-479d-8e49-5b365b22b778")
+	)
+	(junction
+		(at 167.64 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "213ed34c-8e97-4502-b9cc-54b42aab4865")
+	)
+	(junction
+		(at 160.02 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d3b892b-89e4-47b2-8c70-edfa17544a5c")
+	)
+	(junction
+		(at 134.62 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "356f9dd1-2f70-4334-8907-697fcfb48620")
+	)
+	(junction
+		(at 101.6 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46725977-07b9-480e-8dca-99c8c1d7bec9")
+	)
+	(junction
+		(at 35.56 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6534cd15-4a60-46bf-a21f-e4377097489f")
+	)
+	(junction
+		(at 35.56 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ebbd57a-9d06-4ddc-b265-05e54879956f")
+	)
+	(junction
+		(at 101.6 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7240867b-b5e5-49b1-aedc-522264c715c4")
+	)
+	(junction
+		(at 68.58 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76de26a8-31ca-4ab0-b1b4-d65c10a4e87f")
+	)
+	(junction
+		(at 251.46 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7750aba2-c42d-4c2b-aae4-80a80cec9139")
+	)
+	(junction
+		(at 68.58 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83e78e71-6836-4da8-98fc-3714615316dc")
+	)
+	(junction
+		(at 200.66 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bdaf0adf-4d3b-4b39-9aef-2131bb455904")
+	)
+	(junction
+		(at 233.68 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be8175b5-8290-40ba-ba6c-e2ec902c1871")
+	)
+	(junction
+		(at 185.42 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7d425dd-466a-4fce-985b-72e233d439de")
+	)
+	(junction
+		(at 134.62 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f28288b3-8e44-4204-9abe-ecb1e4a27b7e")
+	)
+	(no_connect
+		(at 182.88 86.36)
+		(uuid "1ebc98af-9450-436f-b3e9-526437f74d59")
+	)
+	(no_connect
+		(at 215.9 86.36)
+		(uuid "265f1015-bb2b-470f-a12b-54cac5b89219")
+	)
+	(no_connect
+		(at 215.9 83.82)
+		(uuid "322307a2-92cd-4ef1-8339-73b08a8f55fe")
+	)
+	(no_connect
+		(at 83.82 86.36)
+		(uuid "3fa08583-4471-4e57-b433-e438f2f3a8bd")
+	)
+	(no_connect
+		(at 248.92 86.36)
+		(uuid "438accae-d82d-4255-afd4-6ba24e379e15")
+	)
+	(no_connect
+		(at 182.88 83.82)
+		(uuid "45d0a7f8-5105-4fff-8fc5-70f79885fa1a")
+	)
+	(no_connect
+		(at 149.86 86.36)
+		(uuid "45fb7a1e-21b7-4bf5-b5ba-dd02c2dffc99")
+	)
+	(no_connect
+		(at 149.86 83.82)
+		(uuid "56fcd7be-930a-4485-9625-e30f63508a90")
+	)
+	(no_connect
+		(at 116.84 86.36)
+		(uuid "571f626f-9ed7-41d2-b62b-60a955caf451")
+	)
+	(no_connect
+		(at 281.94 83.82)
+		(uuid "58a05772-a870-4635-80ea-fbeca3a92538")
+	)
+	(no_connect
+		(at 50.8 83.82)
+		(uuid "61e38f81-f20d-445f-a05f-07c55f718189")
+	)
+	(no_connect
+		(at 50.8 86.36)
+		(uuid "6d70e55e-1293-4abd-8b7f-768fe408a716")
+	)
+	(no_connect
+		(at 83.82 83.82)
+		(uuid "7de11e5a-d3c9-49f7-9b8d-fe508cf77a73")
+	)
+	(no_connect
+		(at 248.92 83.82)
+		(uuid "924452a6-a0ef-4ce7-a46f-36148ab04dd5")
+	)
+	(no_connect
+		(at 281.94 86.36)
+		(uuid "9b91c596-2593-4d1d-a793-2e4fc5a17b92")
+	)
+	(no_connect
+		(at 116.84 83.82)
+		(uuid "aad27ba5-bdee-4abc-90b8-7cb3bc9bf220")
+	)
+	(wire
+		(pts
+			(xy 167.64 62.23) (xy 167.64 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00d1111b-05b8-4295-b119-9a2c4e6e29df")
+	)
+	(wire
+		(pts
+			(xy 33.02 102.87) (xy 35.56 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0497f64d-8204-4e85-8ebe-4789a7ba9388")
+	)
+	(wire
+		(pts
+			(xy 86.36 83.82) (xy 86.36 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06001569-3819-4aa1-809d-83f6429a1803")
+	)
+	(wire
+		(pts
+			(xy 101.6 102.87) (xy 134.62 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "157abc29-d9c2-4b97-bd93-adebb17433e0")
+	)
+	(wire
+		(pts
+			(xy 266.7 99.06) (xy 266.7 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18fbdc90-a4fa-459e-b467-6c71251650f3")
+	)
+	(wire
+		(pts
+			(xy 149.86 50.8) (xy 149.86 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b461c01-1825-4c8d-833e-7a1eed0ec302")
+	)
+	(wire
+		(pts
+			(xy 147.32 59.69) (xy 101.6 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ec9d07d-1eae-4185-a419-d267d47b28cf")
+	)
+	(wire
+		(pts
+			(xy 68.58 99.06) (xy 68.58 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f257e30-c199-4399-80cf-7d60c3b4d5f7")
+	)
+	(wire
+		(pts
+			(xy 35.56 99.06) (xy 35.56 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22ab7115-e214-45df-8766-d4e65c98aeb9")
+	)
+	(wire
+		(pts
+			(xy 20.32 54.61) (xy 35.56 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23c7c7b8-8d70-4b72-8fd5-23e64b5de9f1")
+	)
+	(wire
+		(pts
+			(xy 218.44 57.15) (xy 233.68 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26b1f709-4f84-42bc-a192-5c721315d028")
+	)
+	(wire
+		(pts
+			(xy 147.32 50.8) (xy 147.32 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d2fec47-ccda-4d1a-9d16-a92957ee3568")
+	)
+	(wire
+		(pts
+			(xy 68.58 102.87) (xy 101.6 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e654b35-1233-41c9-9e08-07a2902b05b9")
+	)
+	(wire
+		(pts
+			(xy 200.66 102.87) (xy 233.68 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "351de982-0f88-400b-958b-52ed18f4764b")
+	)
+	(wire
+		(pts
+			(xy 68.58 57.15) (xy 68.58 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "378de99f-804b-4844-a255-015ac127cef9")
+	)
+	(wire
+		(pts
+			(xy 152.4 50.8) (xy 152.4 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a48a550-3376-422a-8d3f-31d4e0772543")
+	)
+	(wire
+		(pts
+			(xy 119.38 83.82) (xy 119.38 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ccd3669-8668-4c1a-b778-33b2232a15a7")
+	)
+	(wire
+		(pts
+			(xy 152.4 62.23) (xy 167.64 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42c84cb4-2d65-4964-908b-a1b14c9e3a8e")
+	)
+	(wire
+		(pts
+			(xy 160.02 50.8) (xy 160.02 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49ee550f-b87c-4aa9-ae05-3b317cb73c99")
+	)
+	(wire
+		(pts
+			(xy 21.59 102.87) (xy 25.4 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4db7a77e-e251-48eb-bd1d-c7144ece23c1")
+	)
+	(wire
+		(pts
+			(xy 134.62 62.23) (xy 134.62 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e85e40c-2280-422a-a22e-ecc24d0ca85b")
+	)
+	(wire
+		(pts
+			(xy 185.42 59.69) (xy 200.66 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f23ae6e-1132-4870-bb24-e10a57033484")
+	)
+	(wire
+		(pts
+			(xy 251.46 54.61) (xy 251.46 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "579dcc5e-7bc3-433b-bf1c-dc1df8c2bd49")
+	)
+	(wire
+		(pts
+			(xy 157.48 25.4) (xy 160.02 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5defbcd0-2a82-4a24-a04f-c21e7ef97880")
+	)
+	(wire
+		(pts
+			(xy 35.56 54.61) (xy 142.24 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69bf4dec-35b9-4e5f-b7f3-b402e21d8db7")
+	)
+	(wire
+		(pts
+			(xy 218.44 57.15) (xy 218.44 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b354bd2-99e5-4b1d-9e16-6430e8a1cb7e")
+	)
+	(wire
+		(pts
+			(xy 200.66 99.06) (xy 200.66 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bf693a5-29ba-4d73-ac4e-9c8f6b78f12b")
+	)
+	(wire
+		(pts
+			(xy 154.94 59.69) (xy 185.42 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e551d02-8680-4cc2-84c2-78f2c1b459cf")
+	)
+	(wire
+		(pts
+			(xy 160.02 54.61) (xy 251.46 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70467d1b-bb1b-40c9-921c-2d88c7fbc784")
+	)
+	(wire
+		(pts
+			(xy 144.78 57.15) (xy 68.58 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "704cb515-7db4-455d-8208-21b1d64a71de")
+	)
+	(wire
+		(pts
+			(xy 101.6 59.69) (xy 101.6 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71db54d5-c670-4522-b8ee-c844b4f52b86")
+	)
+	(wire
+		(pts
+			(xy 157.48 57.15) (xy 218.44 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74521853-8494-45db-866c-c2c3cefeeb2c")
+	)
+	(wire
+		(pts
+			(xy 35.56 102.87) (xy 68.58 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "757e2a88-0346-493a-83f2-eb7f0bce3c66")
+	)
+	(wire
+		(pts
+			(xy 53.34 83.82) (xy 53.34 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81464ff6-0ee7-4726-ad56-529f0c0eb90f")
+	)
+	(wire
+		(pts
+			(xy 167.64 25.4) (xy 160.02 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84cc10b6-7745-4b4f-a3c2-3e8aac586c23")
+	)
+	(wire
+		(pts
+			(xy 86.36 59.69) (xy 101.6 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87004804-fd91-4f7d-a51b-1efd3e611a78")
+	)
+	(wire
+		(pts
+			(xy 149.86 62.23) (xy 134.62 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ca13493-8a5a-4240-84cc-7c04c3f70199")
+	)
+	(wire
+		(pts
+			(xy 154.94 50.8) (xy 154.94 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "920c8fe0-22ca-44d4-9ea1-781f79f22fe0")
+	)
+	(wire
+		(pts
+			(xy 152.4 62.23) (xy 152.4 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "931b74cc-3c6e-4268-98be-3d1acca65328")
+	)
+	(wire
+		(pts
+			(xy 167.64 99.06) (xy 167.64 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93d51762-299a-487a-97a0-d319df32b06d")
+	)
+	(wire
+		(pts
+			(xy 167.64 102.87) (xy 200.66 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94b8c91c-076b-4d45-b182-ca1c83a5e2b6")
+	)
+	(wire
+		(pts
+			(xy 251.46 54.61) (xy 266.7 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98ae1c7c-faf9-442b-b357-bca247528dd2")
+	)
+	(wire
+		(pts
+			(xy 20.32 83.82) (xy 20.32 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b65fa0c-4642-4ebc-af9e-f343c0a6468a")
+	)
+	(wire
+		(pts
+			(xy 233.68 99.06) (xy 233.68 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9db609ee-5257-4482-ac6b-d1781e47ee0d")
+	)
+	(wire
+		(pts
+			(xy 185.42 59.69) (xy 185.42 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a133274b-5b3e-45d0-aa0b-edf98ae0892e")
+	)
+	(wire
+		(pts
+			(xy 35.56 54.61) (xy 35.56 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4ba889d-c53d-49b8-a2a1-8693c2204b76")
+	)
+	(wire
+		(pts
+			(xy 233.68 102.87) (xy 266.7 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5c5d106-ae2e-4bfd-ad4a-f118f00ae5d6")
+	)
+	(wire
+		(pts
+			(xy 53.34 57.15) (xy 68.58 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a670460a-5119-4927-a9d2-46ba77ee8bd9")
+	)
+	(wire
+		(pts
+			(xy 200.66 59.69) (xy 200.66 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8bd4ff0-bd8a-4c5b-a4ef-c324abc97406")
+	)
+	(wire
+		(pts
+			(xy 266.7 54.61) (xy 266.7 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c48c2b6d-dc3b-4af3-8e6c-966603cfd722")
+	)
+	(wire
+		(pts
+			(xy 157.48 50.8) (xy 157.48 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c49e5d45-ed5a-48e2-a94c-6bcac22a590f")
+	)
+	(wire
+		(pts
+			(xy 101.6 99.06) (xy 101.6 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7804796-0307-4dc6-844c-9690c4244df1")
+	)
+	(wire
+		(pts
+			(xy 175.26 38.1) (xy 167.64 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc53f1c1-695a-4d0e-831b-85db7eb2329c")
+	)
+	(wire
+		(pts
+			(xy 233.68 57.15) (xy 233.68 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2e7724d-a032-40dc-9c30-326cba402141")
+	)
+	(wire
+		(pts
+			(xy 119.38 62.23) (xy 134.62 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc879f18-8fc0-4207-9231-b8fe693abac6")
+	)
+	(wire
+		(pts
+			(xy 167.64 38.1) (xy 167.64 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0a952d2-bd39-404d-8d20-b7d225949427")
+	)
+	(wire
+		(pts
+			(xy 144.78 50.8) (xy 144.78 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e349cfee-e1b3-4fb7-8222-43176b10d308")
+	)
+	(wire
+		(pts
+			(xy 134.62 102.87) (xy 167.64 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e96e6122-8515-42d8-880e-52350bbc1e85")
+	)
+	(wire
+		(pts
+			(xy 134.62 99.06) (xy 134.62 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9b84649-72c7-4494-80d0-98a801ca189f")
+	)
+	(wire
+		(pts
+			(xy 142.24 50.8) (xy 142.24 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff1493b2-641f-4d29-a814-1768fa4da44e")
+	)
+	(global_label "BUTTON_IN"
+		(shape input)
+		(at 86.36 86.36 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2f92dde8-2513-4aae-9de0-d98443769868")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.36 99.4448 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "BUTTON_IN"
+		(shape input)
+		(at 152.4 86.36 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3736ca8a-1733-4e73-8009-48d5a36af740")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.4 99.4448 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "BUTTON_IN"
+		(shape input)
+		(at 53.34 86.36 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3aba8d74-9238-4fd0-afbc-7dfb3f845358")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.34 99.4448 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "D_GND"
+		(shape input)
+		(at 175.26 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "43c2eafe-cc0e-4fe2-8c6d-9b09f54cc3a4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 184.3533 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "D_+5V"
+		(shape input)
+		(at 21.59 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4548726b-7298-427f-bf08-19165d4949bd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 12.4967 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "DEMUX_C"
+		(shape input)
+		(at 147.32 25.4 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "932862f9-8ae4-4c41-853e-364ffcf8a224")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.32 13.7668 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "BUTTON_IN"
+		(shape input)
+		(at 20.32 86.36 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9586cf36-ae3b-4730-b105-84675dfac682")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 20.32 99.4448 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "BUTTON_IN"
+		(shape input)
+		(at 218.44 86.36 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a5b0ac62-ddad-4947-a8cb-56744723924c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 218.44 99.4448 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "DEMUX_A"
+		(shape input)
+		(at 142.24 25.4 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aaaab142-112b-47c2-8ca8-91ddeeacfa41")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.24 13.9482 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "BUTTON_IN"
+		(shape input)
+		(at 251.46 86.36 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b8f527ed-de6f-4813-9d7e-f8ee5ea63b82")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 251.46 99.4448 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "D_+5V"
+		(shape input)
+		(at 134.62 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c55a544c-d046-4c46-9947-a8e6df6a7d36")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.5267 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "D_+5V"
+		(shape input)
+		(at 154.94 25.4 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c6f888d0-ec14-473e-9126-f5c61ddaf81c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.94 16.3067 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "BUTTON_IN"
+		(shape input)
+		(at 185.42 86.36 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "daa268f2-3fa5-4766-8d64-6493b6b7606e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 185.42 99.4448 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "DEMUX_B"
+		(shape input)
+		(at 144.78 25.4 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eae33220-d8ff-4e52-8694-953223de2899")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.78 13.7668 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "BUTTON_IN"
+		(shape input)
+		(at 119.38 86.36 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fccdd051-8a6e-4619-a22e-281a4a35727e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.38 99.4448 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TL1265RQSCLR:TL1265RQSCLR")
+		(at 251.46 86.36 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2504096a-2ccf-46d8-ae1e-9a56e0692537")
+		(property "Reference" "S8"
+			(at 267.8587 74.168 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TL1265RQSCLR"
+			(at 268.224 72.136 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Project_Libraries:TL1265RQSCLR"
+			(at 278.13 -3.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/TL1275CA2WA500QPB.pdf"
+			(at 278.13 -103.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "ROTARY, 350mA, 125VAC , Panel Mount, Through Hole"
+			(at 251.46 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "12"
+			(at 278.13 -303.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "612-TL1265RQSCLR"
+			(at 278.13 -403.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/TL1265RQSCLR?qs=KGuh8pVqpP84jDX0RVeGMg%3D%3D"
+			(at 278.13 -503.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "E-Switch"
+			(at 278.13 -603.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TL1265RQSCLR"
+			(at 278.13 -703.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "6"
+			(uuid "9d56e51f-a517-4c69-ab37-7c799e53d7a9")
+		)
+		(pin "2"
+			(uuid "f8a1d61a-d46a-4621-a2b2-4d4ee7f029f7")
+		)
+		(pin "3"
+			(uuid "e30dc3ae-a192-4bbc-b7f4-2fa11e1b6415")
+		)
+		(pin "1"
+			(uuid "2d5bf437-7672-4079-8bd1-18c04cd751d9")
+		)
+		(pin "4"
+			(uuid "7d89d8eb-c457-4f17-8a43-45be47ec5c29")
+		)
+		(pin "5"
+			(uuid "71738cc0-ae21-4af4-8ae9-7ce13df2c9dc")
+		)
+		(instances
+			(project "melodiasekvensseri"
+				(path "/88d7c3ef-0a1d-4476-9115-c0d0977d43dc/0608d8d7-f3fd-4f20-b1bf-a2d70d2857a8"
+					(reference "S8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TL1265RQSCLR:TL1265RQSCLR")
+		(at 53.34 86.36 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2b53aa06-6af3-4e53-8362-efef3467189b")
+		(property "Reference" "S2"
+			(at 69.7387 74.168 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TL1265RQSCLR"
+			(at 70.104 72.136 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Project_Libraries:TL1265RQSCLR"
+			(at 80.01 -3.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/TL1275CA2WA500QPB.pdf"
+			(at 80.01 -103.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "ROTARY, 350mA, 125VAC , Panel Mount, Through Hole"
+			(at 53.34 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "12"
+			(at 80.01 -303.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "612-TL1265RQSCLR"
+			(at 80.01 -403.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/TL1265RQSCLR?qs=KGuh8pVqpP84jDX0RVeGMg%3D%3D"
+			(at 80.01 -503.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "E-Switch"
+			(at 80.01 -603.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TL1265RQSCLR"
+			(at 80.01 -703.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "6"
+			(uuid "786f1505-8ad9-4502-b636-f326605b40ab")
+		)
+		(pin "2"
+			(uuid "6a9840cd-09dd-473e-b72a-7838134b6cfe")
+		)
+		(pin "3"
+			(uuid "50f611d9-4b5a-4e33-b1a0-3cfcd5f4c74b")
+		)
+		(pin "1"
+			(uuid "2369390d-c307-400c-8671-213710212ac8")
+		)
+		(pin "4"
+			(uuid "53369219-e724-4625-b201-075723a557f4")
+		)
+		(pin "5"
+			(uuid "bdc7a0a6-4927-4284-a5ac-c29922abcdb2")
+		)
+		(instances
+			(project "melodiasekvensseri"
+				(path "/88d7c3ef-0a1d-4476-9115-c0d0977d43dc/0608d8d7-f3fd-4f20-b1bf-a2d70d2857a8"
+					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TL1265RQSCLR:TL1265RQSCLR")
+		(at 119.38 86.36 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3de9d091-91a4-4bff-aefd-3c921a2a5379")
+		(property "Reference" "S4"
+			(at 135.7787 74.168 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TL1265RQSCLR"
+			(at 136.144 72.136 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Project_Libraries:TL1265RQSCLR"
+			(at 146.05 -3.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/TL1275CA2WA500QPB.pdf"
+			(at 146.05 -103.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "ROTARY, 350mA, 125VAC , Panel Mount, Through Hole"
+			(at 119.38 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "12"
+			(at 146.05 -303.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "612-TL1265RQSCLR"
+			(at 146.05 -403.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/TL1265RQSCLR?qs=KGuh8pVqpP84jDX0RVeGMg%3D%3D"
+			(at 146.05 -503.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "E-Switch"
+			(at 146.05 -603.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TL1265RQSCLR"
+			(at 146.05 -703.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "6"
+			(uuid "c2e8eff2-9ac9-4c24-929d-5c7b4e7915f9")
+		)
+		(pin "2"
+			(uuid "c66c6481-4ce1-4199-b1f0-8f4386af9900")
+		)
+		(pin "3"
+			(uuid "3fa89ad9-5106-4466-9787-3ed913a7076b")
+		)
+		(pin "1"
+			(uuid "6d895c12-808d-4d9a-8558-7298e59f3859")
+		)
+		(pin "4"
+			(uuid "4a191d7f-e71d-420c-b924-618ef42c31ab")
+		)
+		(pin "5"
+			(uuid "d84023c6-fa6f-415f-82fb-bfee8b28fb41")
+		)
+		(instances
+			(project "melodiasekvensseri"
+				(path "/88d7c3ef-0a1d-4476-9115-c0d0977d43dc/0608d8d7-f3fd-4f20-b1bf-a2d70d2857a8"
+					(reference "S4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TL1265RQSCLR:TL1265RQSCLR")
+		(at 185.42 86.36 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6584a3b8-85de-49f5-8bd9-08ce79f53a88")
+		(property "Reference" "S6"
+			(at 201.8187 74.168 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TL1265RQSCLR"
+			(at 202.184 72.136 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Project_Libraries:TL1265RQSCLR"
+			(at 212.09 -3.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/TL1275CA2WA500QPB.pdf"
+			(at 212.09 -103.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "ROTARY, 350mA, 125VAC , Panel Mount, Through Hole"
+			(at 185.42 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "12"
+			(at 212.09 -303.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "612-TL1265RQSCLR"
+			(at 212.09 -403.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/TL1265RQSCLR?qs=KGuh8pVqpP84jDX0RVeGMg%3D%3D"
+			(at 212.09 -503.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "E-Switch"
+			(at 212.09 -603.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TL1265RQSCLR"
+			(at 212.09 -703.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "6"
+			(uuid "1a5a32fb-b403-4037-83a3-c3ec7e070544")
+		)
+		(pin "2"
+			(uuid "a35f6fc6-af22-4c5a-8807-a84c1b15742c")
+		)
+		(pin "3"
+			(uuid "a5860252-90da-4264-a726-74611ff76a3e")
+		)
+		(pin "1"
+			(uuid "831b7b8b-8384-43da-afbc-c5c2ce933776")
+		)
+		(pin "4"
+			(uuid "49cd57de-1f6e-413e-a18f-a14fb3e1a0a2")
+		)
+		(pin "5"
+			(uuid "b6fcbaed-db2e-4e9a-81f8-10e92367e9e9")
+		)
+		(instances
+			(project "melodiasekvensseri"
+				(path "/88d7c3ef-0a1d-4476-9115-c0d0977d43dc/0608d8d7-f3fd-4f20-b1bf-a2d70d2857a8"
+					(reference "S6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TL1265RQSCLR:TL1265RQSCLR")
+		(at 20.32 86.36 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9de4e68a-ec06-458c-b822-698fe114e118")
+		(property "Reference" "S1"
+			(at 36.7187 74.168 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TL1265RQSCLR"
+			(at 37.084 72.136 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Project_Libraries:TL1265RQSCLR"
+			(at 46.99 -3.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/TL1275CA2WA500QPB.pdf"
+			(at 46.99 -103.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "ROTARY, 350mA, 125VAC , Panel Mount, Through Hole"
+			(at 20.32 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "12"
+			(at 46.99 -303.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "612-TL1265RQSCLR"
+			(at 46.99 -403.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/TL1265RQSCLR?qs=KGuh8pVqpP84jDX0RVeGMg%3D%3D"
+			(at 46.99 -503.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "E-Switch"
+			(at 46.99 -603.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TL1265RQSCLR"
+			(at 46.99 -703.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "6"
+			(uuid "5bc113a7-3c9c-43df-9844-b1dbebd0e59a")
+		)
+		(pin "2"
+			(uuid "8d6b40b7-2a0f-4497-9774-0ddca1940080")
+		)
+		(pin "3"
+			(uuid "bf0a9ee3-c271-4e11-9f57-80b7349c7e4a")
+		)
+		(pin "1"
+			(uuid "4c4123d5-6848-4d07-b92e-8f6e822ef093")
+		)
+		(pin "4"
+			(uuid "e970caf8-1038-4a39-a61d-6ba6cca657bf")
+		)
+		(pin "5"
+			(uuid "9e61a4fd-3b01-4ba9-b3ef-8a9f8e6c0a93")
+		)
+		(instances
+			(project "melodiasekvensseri"
+				(path "/88d7c3ef-0a1d-4476-9115-c0d0977d43dc/0608d8d7-f3fd-4f20-b1bf-a2d70d2857a8"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TL1265RQSCLR:TL1265RQSCLR")
+		(at 152.4 86.36 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ae26f273-2559-43e6-bff8-ce7ab72bc7c2")
+		(property "Reference" "S5"
+			(at 168.7987 74.168 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TL1265RQSCLR"
+			(at 169.164 72.136 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Project_Libraries:TL1265RQSCLR"
+			(at 179.07 -3.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/TL1275CA2WA500QPB.pdf"
+			(at 179.07 -103.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "ROTARY, 350mA, 125VAC , Panel Mount, Through Hole"
+			(at 152.4 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "12"
+			(at 179.07 -303.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "612-TL1265RQSCLR"
+			(at 179.07 -403.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/TL1265RQSCLR?qs=KGuh8pVqpP84jDX0RVeGMg%3D%3D"
+			(at 179.07 -503.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "E-Switch"
+			(at 179.07 -603.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TL1265RQSCLR"
+			(at 179.07 -703.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "6"
+			(uuid "719594e3-1cfb-4e53-968b-d8245f9f9767")
+		)
+		(pin "2"
+			(uuid "4a0a1922-33f9-447b-8d3b-ed0f030077d9")
+		)
+		(pin "3"
+			(uuid "aa8928f0-9f28-4071-8856-73c1bb7a821a")
+		)
+		(pin "1"
+			(uuid "3eb92b73-fce6-42fa-a8a4-9ef055630e74")
+		)
+		(pin "4"
+			(uuid "f4fe2ee0-78e3-48f7-b66e-c9387474d0c3")
+		)
+		(pin "5"
+			(uuid "ee3842d3-586b-422b-87fd-f55984556b5c")
+		)
+		(instances
+			(project "melodiasekvensseri"
+				(path "/88d7c3ef-0a1d-4476-9115-c0d0977d43dc/0608d8d7-f3fd-4f20-b1bf-a2d70d2857a8"
+					(reference "S5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TL1265RQSCLR:TL1265RQSCLR")
+		(at 86.36 86.36 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "df5c2671-1248-47c0-bb58-637926d40481")
+		(property "Reference" "S3"
+			(at 102.7587 74.168 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TL1265RQSCLR"
+			(at 103.124 72.136 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Project_Libraries:TL1265RQSCLR"
+			(at 113.03 -3.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/TL1275CA2WA500QPB.pdf"
+			(at 113.03 -103.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "ROTARY, 350mA, 125VAC , Panel Mount, Through Hole"
+			(at 86.36 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "12"
+			(at 113.03 -303.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "612-TL1265RQSCLR"
+			(at 113.03 -403.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/TL1265RQSCLR?qs=KGuh8pVqpP84jDX0RVeGMg%3D%3D"
+			(at 113.03 -503.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "E-Switch"
+			(at 113.03 -603.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TL1265RQSCLR"
+			(at 113.03 -703.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "6"
+			(uuid "dd623cd7-bf83-4332-9252-e13a604a1815")
+		)
+		(pin "2"
+			(uuid "6f7f1875-3846-40a3-b2ed-312c1ff00c8a")
+		)
+		(pin "3"
+			(uuid "618a740d-3657-4a34-bcb8-009f97a13465")
+		)
+		(pin "1"
+			(uuid "155dc20c-88d4-4f92-8c46-861301df5ef8")
+		)
+		(pin "4"
+			(uuid "12f83336-6dc5-47c6-a2ae-fde3b0893cc4")
+		)
+		(pin "5"
+			(uuid "7e6a5847-6d56-4a18-b9b4-7e7361e87ff7")
+		)
+		(instances
+			(project "melodiasekvensseri"
+				(path "/88d7c3ef-0a1d-4476-9115-c0d0977d43dc/0608d8d7-f3fd-4f20-b1bf-a2d70d2857a8"
+					(reference "S3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS138")
+		(at 149.86 38.1 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e3b6a4eb-1624-4ced-932e-2ea2d35ba03c")
+		(property "Reference" "IC1"
+			(at 130.81 40.386 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS138"
+			(at 130.81 42.926 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+			(at 149.86 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS138"
+			(at 149.86 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Decoder 3 to 8 active low outputs"
+			(at 149.86 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "3e07afb6-9377-4000-8c84-ffb941c25b51")
+		)
+		(pin "14"
+			(uuid "c359fa26-e5fe-439c-b106-dabfe6bc7f62")
+		)
+		(pin "16"
+			(uuid "ede164c3-8f71-4e9b-8a9d-6e58ec510564")
+		)
+		(pin "2"
+			(uuid "a3afb537-f5e8-40b9-8e90-5e10a43213d6")
+		)
+		(pin "1"
+			(uuid "bd5b9d5e-67b4-4f98-aeaa-7c8863ab2c41")
+		)
+		(pin "4"
+			(uuid "5fe04b27-0a3c-4839-a689-74b61dfde66e")
+		)
+		(pin "7"
+			(uuid "da5c1bb6-061e-4a1c-856e-038650f4bd57")
+		)
+		(pin "3"
+			(uuid "75de2707-cb37-49ba-8918-6c3a6984fb71")
+		)
+		(pin "6"
+			(uuid "396dbdf5-5fd1-45e6-a1cc-d8eada8310b6")
+		)
+		(pin "9"
+			(uuid "171606ee-a642-44b9-aeff-d9023fd935d9")
+		)
+		(pin "5"
+			(uuid "1d36cf81-aa91-429c-89c2-5c1ae0869cde")
+		)
+		(pin "10"
+			(uuid "a0572fde-fcbd-4205-b740-137474ff5f8e")
+		)
+		(pin "11"
+			(uuid "b0ef840e-7267-42c6-9d57-b8359a82fbd5")
+		)
+		(pin "12"
+			(uuid "bb4bbc67-fcc3-496d-a88d-084461f91801")
+		)
+		(pin "13"
+			(uuid "ec65197f-3a79-4158-8191-d25de9645c45")
+		)
+		(pin "15"
+			(uuid "a6f31bef-656a-40a2-aba5-6abd13caeeaf")
+		)
+		(instances
+			(project "melodiasekvensseri"
+				(path "/88d7c3ef-0a1d-4476-9115-c0d0977d43dc/0608d8d7-f3fd-4f20-b1bf-a2d70d2857a8"
+					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TL1265RQSCLR:TL1265RQSCLR")
+		(at 218.44 86.36 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e607cbbe-c098-4fe1-84f3-bf7ff640b6bd")
+		(property "Reference" "S7"
+			(at 234.8387 74.168 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TL1265RQSCLR"
+			(at 235.204 72.136 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Project_Libraries:TL1265RQSCLR"
+			(at 245.11 -3.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/TL1275CA2WA500QPB.pdf"
+			(at 245.11 -103.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "ROTARY, 350mA, 125VAC , Panel Mount, Through Hole"
+			(at 218.44 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "12"
+			(at 245.11 -303.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "612-TL1265RQSCLR"
+			(at 245.11 -403.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/TL1265RQSCLR?qs=KGuh8pVqpP84jDX0RVeGMg%3D%3D"
+			(at 245.11 -503.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "E-Switch"
+			(at 245.11 -603.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TL1265RQSCLR"
+			(at 245.11 -703.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "6"
+			(uuid "f910fb6b-96e2-4e37-9826-e97c3ea5c411")
+		)
+		(pin "2"
+			(uuid "08806eff-f6c2-40d9-b34f-660d9fbcc644")
+		)
+		(pin "3"
+			(uuid "65bb36f3-d840-45e9-b26f-5af1737b89b6")
+		)
+		(pin "1"
+			(uuid "1fa8ee6b-220f-4de9-9a64-b14e87d4c342")
+		)
+		(pin "4"
+			(uuid "c54915a2-7820-42ba-96ef-4ad00319ac30")
+		)
+		(pin "5"
+			(uuid "0ce31406-944e-4776-b29a-6d2dbf7a48de")
+		)
+		(instances
+			(project "melodiasekvensseri"
+				(path "/88d7c3ef-0a1d-4476-9115-c0d0977d43dc/0608d8d7-f3fd-4f20-b1bf-a2d70d2857a8"
+					(reference "S7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 29.21 102.87 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f6e2ef8c-e401-49ac-9510-ac44189ca344")
+		(property "Reference" "R3"
+			(at 29.21 109.22 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 29.21 106.68 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 29.21 101.092 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 29.21 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9e0f598a-8448-4346-bd44-276e69a3be63")
+		)
+		(pin "1"
+			(uuid "f39f85b8-c155-4021-8241-61d2e4ae9606")
+		)
+		(instances
+			(project "melodiasekvensseri"
+				(path "/88d7c3ef-0a1d-4476-9115-c0d0977d43dc/0608d8d7-f3fd-4f20-b1bf-a2d70d2857a8"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

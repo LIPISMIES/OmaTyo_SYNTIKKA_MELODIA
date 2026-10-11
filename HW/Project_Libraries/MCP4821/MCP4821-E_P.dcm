@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP4821-E_P
+D Microchip MCP4821-E/P, 12 bit Serial DAC, 8-Pin PDIP
+K
+F https://componentsearchengine.com/Datasheets/2/MCP4821-E_P.pdf
+$ENDCMP
+#
+#End Doc Library

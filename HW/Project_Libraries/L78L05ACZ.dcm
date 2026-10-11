@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP L78L05ACZ
+D Linear Voltage Regulator IC Positive Fixed 1 Output 100mA TO-92-3
+K
+F https://www.st.com/resource/en/datasheet/l78l.pdf
+$ENDCMP
+#
+#End Doc Library

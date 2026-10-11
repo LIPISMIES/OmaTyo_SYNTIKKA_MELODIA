@@ -1,0 +1,147 @@
+(footprint "Adafruit_BBF_3_5mm_Mono_Jack"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.5 6.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5a14dbed-e13f-452d-a34f-ce4a4c1fb8fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "J1"
+		(at 7.62 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b036f21-29d7-414c-9aee-0e30d16dae37")
+		(effects
+			(font
+				(face "NSimSun")
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+		(render_cache "J1" 0
+			(polygon
+				(pts
+					(xy 7.319093 -0.465861) (xy 7.316104 -0.485735) (xy 7.308163 -0.498651) (xy 7.29458 -0.50641) (xy 7.269878 -0.509581)
+					(xy 7.138719 -0.509581) (xy 7.138719 -0.542431) (xy 7.585379 -0.542431) (xy 7.585379 -0.509581)
+					(xy 7.45422 -0.509581) (xy 7.433901 -0.50669) (xy 7.418683 -0.498651) (xy 7.408678 -0.485478) (xy 7.405066 -0.465861)
+					(xy 7.405066 0.310464) (xy 7.399904 0.369671) (xy 7.385267 0.419783) (xy 7.36178 0.462512) (xy 7.329168 0.49908)
+					(xy 7.289374 0.528655) (xy 7.245097 0.549845) (xy 7.19548 0.562883) (xy 7.139391 0.567407) (xy 7.086007 0.563179)
+					(xy 7.045356 0.551771) (xy 7.014644 0.534434) (xy 6.989677 0.510098) (xy 6.975824 0.484779) (xy 6.971291 0.457498)
+					(xy 6.976443 0.427785) (xy 6.990525 0.408039) (xy 7.01088 0.395527) (xy 7.031863 0.391552) (xy 7.056875 0.39648)
+					(xy 7.075888 0.410847) (xy 7.088214 0.431906) (xy 7.092435 0.457559) (xy 7.089688 0.476854) (xy 7.07601 0.496088)
+					(xy 7.089295 0.510317) (xy 7.108555 0.520879) (xy 7.131727 0.526877) (xy 7.162594 0.529122) (xy 7.207338 0.52371)
+					(xy 7.244531 0.50824) (xy 7.275923 0.482655) (xy 7.297582 0.448466) (xy 7.312982 0.393848) (xy 7.319093 0.310464)
+				)
+			)
+			(polygon
+				(pts
+					(xy 8.018604 -0.558063) (xy 8.018604 0.271385) (xy 8.021929 0.299204) (xy 8.031122 0.320519) (xy 8.045898 0.336903)
+					(xy 8.077013 0.352756) (xy 8.122408 0.358702) (xy 8.177057 0.358702) (xy 8.177057 0.391552) (xy 7.779613 0.391552)
+					(xy 7.779613 0.358702) (xy 7.828767 0.358702) (xy 7.878568 0.352485) (xy 7.908023 0.336903) (xy 7.926011 0.310822)
+					(xy 7.932631 0.271446) (xy 7.932631 -0.388558) (xy 7.929103 -0.40859) (xy 7.918953 -0.423974) (xy 7.902798 -0.433913)
+					(xy 7.877982 -0.437651) (xy 7.779613 -0.437651) (xy 7.779613 -0.470502) (xy 7.828767 -0.470502)
+					(xy 7.890527 -0.47648) (xy 7.934951 -0.492362) (xy 7.970613 -0.519525) (xy 7.997111 -0.558063)
+				)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ca4c9af-d460-4649-973c-7c40bcba6010")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Mono Jack"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "96ae4e99-2efc-4d10-89a9-d71d53595485")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -5 1)
+		(end 5 11.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1dbc534c-e59d-454c-8e70-c86fbb519588")
+	)
+	(fp_rect
+		(start -5.5 -1)
+		(end 5.5 12)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f9029eaf-e569-4e19-81f9-5ff94cadc814")
+	)
+	(pad "S" thru_hole roundrect
+		(at 0 0)
+		(size 1.27 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "0d8da764-cbfd-48dd-a5c5-c357ad01ad7b")
+	)
+	(pad "T" thru_hole circle
+		(at 0 10.16)
+		(size 1.27 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "9a28e52e-2117-476e-84dc-4ec37bdbff2a")
+	)
+	(pad "TN" thru_hole circle
+		(at 0 2.54)
+		(size 1.27 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "9b9834ff-5f01-4c41-814c-5af5acc1406b")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Project_Libraries/3D_Models/adafruitjack.step"
+		(offset
+			(xyz 0 -5.9 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Project_Libraries") (type "KiCad") (uri "${KIPRJMOD}/Project_Libraries") (options "") (descr ""))
+	(lib (name "MCP4821") (type "KiCad") (uri "${KIPRJMOD}/Project_Libraries/MCP4821") (options "") (descr ""))
+)

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TL1265RQSCLR
+D ROTARY, 350mA, 125VAC , Panel Mount, Through Hole
+K
+F https://configured-product-images.s3.amazonaws.com/2D/specs/TL1275CA2WA500QPB.pdf
+$ENDCMP
+#
+#End Doc Library
