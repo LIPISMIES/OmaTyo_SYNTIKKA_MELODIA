@@ -4616,7 +4616,7 @@
 		(descr "28-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "MC1"
-			(at 3.81 16.5 90)
+			(at 2.91 16.5 90)
 			(layer "F.SilkS")
 			(uuid "94e1d5ca-0e7b-4774-a0f7-51ec92198b3c")
 			(effects
@@ -4808,7 +4808,7 @@
 			(uuid "8896f750-e1f3-466c-a8cb-c992e4096063")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 16.51 90)
+			(at 2.91 16.51 90)
 			(layer "F.Fab")
 			(uuid "f76c010d-5a2c-4852-b0a5-47e8d53f51d2")
 			(effects

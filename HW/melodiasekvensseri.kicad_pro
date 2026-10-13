@@ -579,7 +579,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "melodiasekvensseri.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
