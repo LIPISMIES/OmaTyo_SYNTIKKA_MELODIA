@@ -26,3 +26,51 @@ Thumbs.db
 
 # Windows / OneDrive conflict files
 *conflicted copy*
+
+# KiCad Core Project Files to KEEP
+!*.kicad_pro
+!*.kicad_sch
+!*.kicad_pcb
+!*.kicad_dru
+!fp-lib-table
+!sym-lib-table
+
+# HW project local libraries to KEEP
+!Project_Libraries/
+!Project_Libraries/**
+
+# KiCad Temporary and Auto-Generated Files
+.history/
+*.lck
+*.lock
+
+# Automatic background rescue and backup tracking copies
+*-backups/
+*-bak
+*.bak
+*.gbr-bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*~
+
+# Local system layout configuration
+*.kicad_prl
+
+# Manufacturing Output Directories
+[Gg]erber/
+[Gg]erbers/
+[Oo]utput/
+[Bb]uild/
+*.gbr
+*.gtrl
+*.gbl
+*.gtl
+*.gbs
+*.gts
+*.gto
+*.gbo
+*.gm1
+*.drl
+*.xln
+*.zip
+*.tar.gz

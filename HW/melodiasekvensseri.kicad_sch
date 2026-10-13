@@ -202,6 +202,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Audio:AudioJack2_SwitchT"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4178,6 +4301,12 @@
 		(uuid "33b216a7-f617-451f-bf4c-cf19d73ba350")
 	)
 	(junction
+		(at 92.71 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3cf25879-65b1-42a0-9b40-10df85644632")
+	)
+	(junction
 		(at 115.57 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4194,6 +4323,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5dc13e40-a6ee-4091-9057-fdfbe3141ff4")
+	)
+	(junction
+		(at 54.61 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69123a90-039b-4a87-ac11-a84d103b4abe")
 	)
 	(junction
 		(at 93.98 39.37)
@@ -4220,22 +4355,34 @@
 		(uuid "9f559436-334e-48ab-8069-924518355891")
 	)
 	(junction
+		(at 54.61 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9c9157c-09b7-4ac5-a837-3ed4e1c6b29f")
+	)
+	(junction
 		(at 113.03 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bac0ebce-7e35-4731-942a-cb2b3ec1751e")
 	)
 	(junction
-		(at 90.17 44.45)
+		(at 149.86 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bb082726-70f2-47a2-b23e-bfa013f08b92")
+		(uuid "c0e1bfd1-dab4-4ade-b1d7-51bd209d7d02")
 	)
 	(junction
 		(at 93.98 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1391abd-ea20-43d0-af9b-85426cd104e2")
+	)
+	(junction
+		(at 81.28 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb11e9be-1fec-45b9-aa5d-2769126042fe")
 	)
 	(junction
 		(at 137.16 34.29)
@@ -4268,10 +4415,6 @@
 	(no_connect
 		(at 212.09 64.77)
 		(uuid "53da0f25-8087-4652-ad49-4f9bcec253ba")
-	)
-	(no_connect
-		(at 54.61 57.15)
-		(uuid "56139c1a-bd5a-4cef-8f66-6af981080c70")
 	)
 	(no_connect
 		(at 67.31 82.55)
@@ -4311,16 +4454,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 154.94) (xy 53.34 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "002d0b57-88f1-4f8a-bb92-9e4e1debea50")
-	)
-	(wire
-		(pts
 			(xy 99.06 67.31) (xy 110.49 67.31)
 		)
 		(stroke
@@ -4328,16 +4461,6 @@
 			(type default)
 		)
 		(uuid "03825944-90d9-404a-9208-1f713171438b")
-	)
-	(wire
-		(pts
-			(xy 93.98 44.45) (xy 90.17 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03854c6e-e21a-47ae-9fd8-e0ac598d8fad")
 	)
 	(wire
 		(pts
@@ -4401,16 +4524,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 41.91) (xy 146.05 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10002292-0f41-40c2-8c59-bdfbb47620de")
-	)
-	(wire
-		(pts
 			(xy 160.02 99.06) (xy 160.02 109.22)
 		)
 		(stroke
@@ -4441,6 +4554,26 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 44.45) (xy 54.61 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f4b5bf5-bd87-4100-8e33-5bb418d58e38")
+	)
+	(wire
+		(pts
+			(xy 50.8 154.94) (xy 53.34 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "305bcc1f-bbb4-4110-a59c-a19b3e6c3fd7")
+	)
+	(wire
+		(pts
 			(xy 184.15 53.34) (xy 184.15 62.23)
 		)
 		(stroke
@@ -4468,6 +4601,16 @@
 			(type default)
 		)
 		(uuid "3c555d0b-8e5b-4626-bf15-27c928cccee5")
+	)
+	(wire
+		(pts
+			(xy 54.61 52.07) (xy 54.61 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d5f8b84-55da-459b-b48a-3c8a8067f2d8")
 	)
 	(wire
 		(pts
@@ -4621,6 +4764,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 44.45) (xy 93.98 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aeca11f-209f-42b5-a667-dc5065b5b229")
+	)
+	(wire
+		(pts
 			(xy 83.82 24.13) (xy 93.98 24.13)
 		)
 		(stroke
@@ -4681,6 +4834,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 44.45) (xy 92.71 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8206286e-9483-480b-98ea-4a99f8b57deb")
+	)
+	(wire
+		(pts
 			(xy 93.98 24.13) (xy 93.98 36.83)
 		)
 		(stroke
@@ -4691,7 +4854,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 44.45) (xy 66.04 44.45)
+			(xy 81.28 44.45) (xy 92.71 44.45)
 		)
 		(stroke
 			(width 0)
@@ -4811,6 +4974,26 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 44.45) (xy 66.04 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad7adf54-2b00-4101-bea0-927b6199da16")
+	)
+	(wire
+		(pts
+			(xy 52.07 44.45) (xy 54.61 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0a86cc0-233c-4c51-871f-309396df30a9")
+	)
+	(wire
+		(pts
 			(xy 149.86 69.85) (xy 157.48 69.85)
 		)
 		(stroke
@@ -4881,6 +5064,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 41.91) (xy 146.05 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc15dc1d-71f5-4816-92bc-8abfb608baae")
+	)
+	(wire
+		(pts
 			(xy 66.04 36.83) (xy 66.04 24.13)
 		)
 		(stroke
@@ -4898,6 +5091,16 @@
 			(type default)
 		)
 		(uuid "e1a074d9-3b5d-4d2c-b96c-f040c3f74614")
+	)
+	(wire
+		(pts
+			(xy 52.07 52.07) (xy 52.07 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e257e415-378e-40af-b366-b0819e1bf77d")
 	)
 	(wire
 		(pts
@@ -5087,7 +5290,7 @@
 	)
 	(global_label "RXD"
 		(shape input)
-		(at 247.65 114.3 0)
+		(at 247.65 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5097,7 +5300,7 @@
 		)
 		(uuid "0dd90b3c-b433-4a5e-b94e-bfa60b8eb5df")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.3847 114.3 0)
+			(at 254.3847 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5130,6 +5333,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "D_GND"
+		(shape input)
+		(at 62.23 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "122943ff-49af-4ca5-99d7-1548064165ab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.3233 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -5277,9 +5504,9 @@
 			)
 		)
 	)
-	(global_label "BUTTON_IN"
+	(global_label "STEP_IN"
 		(shape input)
-		(at 67.31 95.25 0)
+		(at 67.31 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5289,7 +5516,7 @@
 		)
 		(uuid "2cd62594-b7ce-48a3-b814-4dd2a905a5c2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.3948 95.25 0)
+			(at 77.7942 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5471,7 +5698,7 @@
 	)
 	(global_label "D_+5V"
 		(shape input)
-		(at 52.07 57.15 180)
+		(at 52.07 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5481,7 +5708,7 @@
 		)
 		(uuid "5b13def8-e5ec-47ac-8ff3-43c3920edf71")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.9767 57.15 0)
+			(at 42.9767 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5735,7 +5962,7 @@
 	)
 	(global_label "ENC_B"
 		(shape input)
-		(at 67.31 113.03 0)
+		(at 67.31 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5745,7 +5972,7 @@
 		)
 		(uuid "70bfdb5e-bfaf-467c-baaa-3e677d978c63")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.2823 113.03 0)
+			(at 76.2823 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5759,7 +5986,7 @@
 	)
 	(global_label "DEMUX_A"
 		(shape input)
-		(at 67.31 125.73 0)
+		(at 67.31 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5769,7 +5996,7 @@
 		)
 		(uuid "740e6b01-9a04-44cf-9056-8b2f31471077")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.7618 125.73 0)
+			(at 78.7618 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5903,7 +6130,7 @@
 	)
 	(global_label "ENC_A"
 		(shape input)
-		(at 67.31 115.57 0)
+		(at 67.31 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5913,7 +6140,7 @@
 		)
 		(uuid "862501c7-c75e-4854-b042-913b4f974c80")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.1009 115.57 0)
+			(at 76.1009 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6239,7 +6466,7 @@
 	)
 	(global_label "TXD"
 		(shape input)
-		(at 247.65 116.84 0)
+		(at 247.65 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6249,7 +6476,7 @@
 		)
 		(uuid "bb232fd0-4f62-4aca-92e2-85b6a9862342")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.0823 116.84 0)
+			(at 254.0823 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6311,7 +6538,7 @@
 	)
 	(global_label "DEMUX_B"
 		(shape input)
-		(at 67.31 123.19 0)
+		(at 67.31 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6321,7 +6548,7 @@
 		)
 		(uuid "d358a5db-b445-4742-9a32-e998b3a13515")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.9432 123.19 0)
+			(at 78.9432 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6479,7 +6706,7 @@
 	)
 	(global_label "CLK_IN"
 		(shape input)
-		(at 67.31 64.77 0)
+		(at 67.31 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6489,7 +6716,7 @@
 		)
 		(uuid "e646dd5c-c0b0-463a-acbc-aa45e95d1552")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.7662 64.77 0)
+			(at 76.7662 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6503,7 +6730,7 @@
 	)
 	(global_label "DEMUX_C"
 		(shape input)
-		(at 67.31 120.65 0)
+		(at 67.31 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6513,7 +6740,7 @@
 		)
 		(uuid "e88c7249-170b-446c-9a00-d90a458e838a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.9432 120.65 0)
+			(at 78.9432 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7059,6 +7286,85 @@
 			(project "melodiasekvensseri"
 				(path "/88d7c3ef-0a1d-4476-9115-c0d0977d43dc"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 146.05 46.99 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10008de6-6f43-4482-b85f-23e2b083bbdd")
+		(property "Reference" "TP_A5V1"
+			(at 148.59 49.0219 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 148.59 51.5619 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 140.97 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 146.05 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aae5dc38-c312-4c09-b99c-03f30fb00415")
+		)
+		(instances
+			(project "melodiasekvensseri"
+				(path "/88d7c3ef-0a1d-4476-9115-c0d0977d43dc"
+					(reference "TP_A5V1")
 					(unit 1)
 				)
 			)
@@ -8117,6 +8423,167 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 58.42 52.07 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "42370d81-6133-4429-a88d-75c0a73977dd")
+		(property "Reference" "C14"
+			(at 59.6901 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 57.1501 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+			(at 54.61 51.1048 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 58.42 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6d188148-9f68-408f-a4d7-ac0d2ab6a878")
+		)
+		(pin "1"
+			(uuid "d32c71c0-d569-4963-ad89-abe2fba41ec1")
+		)
+		(instances
+			(project "melodiasekvensseri"
+				(path "/88d7c3ef-0a1d-4476-9115-c0d0977d43dc"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 92.71 46.99 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f5200d3-2202-46ea-9af1-8606fdd71b26")
+		(property "Reference" "TP_D5V1"
+			(at 95.25 49.0219 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 95.25 51.5619 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 87.63 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 92.71 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4f8b94fd-ce30-4c44-831b-1c13b6dec3af")
+		)
+		(instances
+			(project "melodiasekvensseri"
+				(path "/88d7c3ef-0a1d-4476-9115-c0d0977d43dc"
+					(reference "TP_D5V1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MCU_Microchip_ATmega:ATmega328P-P")
 		(at 52.07 95.25 0)
 		(unit 1)
@@ -8270,6 +8737,85 @@
 			(project "melodiasekvensseri"
 				(path "/88d7c3ef-0a1d-4476-9115-c0d0977d43dc"
 					(reference "MC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 54.61 57.15 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6adbdfea-8033-41ae-83a1-a78883f543e9")
+		(property "Reference" "#FLG06"
+			(at 56.515 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 58.42 57.1499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 54.61 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6549806c-5a2d-44b1-8853-875c8bcadd36")
+		)
+		(instances
+			(project "melodiasekvensseri"
+				(path "/88d7c3ef-0a1d-4476-9115-c0d0977d43dc"
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -8597,6 +9143,85 @@
 			(project "melodiasekvensseri"
 				(path "/88d7c3ef-0a1d-4476-9115-c0d0977d43dc"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 52.07 48.26 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "72ae7158-522f-4a18-a5e7-eaa349b79fad")
+		(property "Reference" "R8"
+			(at 47.244 48.26 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 49.784 48.26 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 53.848 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 52.07 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a3f39101-7211-46ee-9a9f-ff07613618aa")
+		)
+		(pin "1"
+			(uuid "1b2c3fd0-880d-43d2-8c20-c41e2067efc4")
+		)
+		(instances
+			(project "melodiasekvensseri"
+				(path "/88d7c3ef-0a1d-4476-9115-c0d0977d43dc"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -9621,7 +10246,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 90.17 44.45 180)
+		(at 81.28 44.45 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9632,7 +10257,7 @@
 		(fields_autoplaced yes)
 		(uuid "b62e4327-47d6-42c7-91ba-fa4994d4e4ba")
 		(property "Reference" "#FLG04"
-			(at 90.17 46.355 0)
+			(at 81.28 46.355 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9643,7 +10268,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 90.17 49.53 0)
+			(at 81.28 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9653,7 +10278,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 44.45 0)
+			(at 81.28 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9664,7 +10289,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 44.45 0)
+			(at 81.28 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9675,7 +10300,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 90.17 44.45 0)
+			(at 81.28 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9876,6 +10501,85 @@
 			(project "melodiasekvensseri"
 				(path "/88d7c3ef-0a1d-4476-9115-c0d0977d43dc"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 149.86 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d37edd69-c3a6-49a2-9c10-a4c3cdd700d9")
+		(property "Reference" "TP_DAC_OUT1"
+			(at 152.4 62.7379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 152.4 65.2779 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 154.94 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 149.86 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f95322ab-c5fc-4123-9383-ce15a7f1890a")
+		)
+		(instances
+			(project "melodiasekvensseri"
+				(path "/88d7c3ef-0a1d-4476-9115-c0d0977d43dc"
+					(reference "TP_DAC_OUT1")
 					(unit 1)
 				)
 			)
