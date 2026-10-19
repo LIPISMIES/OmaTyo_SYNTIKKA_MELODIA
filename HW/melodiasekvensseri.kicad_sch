@@ -9550,7 +9550,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "L78L05ACZ"
+		(property "Value" "LM78M05"
 			(at 86.36 34.2899 90)
 			(show_name no)
 			(do_not_autoplace no)

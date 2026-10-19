@@ -10714,8 +10714,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "L78L05ACZ"
-			(at 2.54 -2.2 90)
+		(property "Value" "LM78M05"
+			(at 4 2.5 90)
 			(layer "B.Fab")
 			(uuid "87e446aa-fd4f-4cfc-8736-445658f69bf7")
 			(effects
