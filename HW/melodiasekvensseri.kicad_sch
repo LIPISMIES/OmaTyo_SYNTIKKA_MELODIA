@@ -1321,193 +1321,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N4148"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N4148"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "100V 0.15A standard switching diode, DO-35"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?35*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "1N4148_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N4148_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Diode:1N47xxA"
 			(pin_numbers
 				(hide yes)
@@ -4236,12 +4049,6 @@
 		(uuid "066c781d-48b7-44b9-b87b-13f0738726ad")
 	)
 	(junction
-		(at 144.78 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0f6b6578-3c03-4784-94b5-d5aecccb4d1d")
-	)
-	(junction
 		(at 146.05 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4252,12 +4059,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25d43163-9706-407d-9db2-d98ab8adb97b")
-	)
-	(junction
-		(at 144.78 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "33b216a7-f617-451f-bf4c-cf19d73ba350")
 	)
 	(junction
 		(at 115.57 67.31)
@@ -4296,6 +4097,12 @@
 		(uuid "7192f574-1f40-458e-8069-cc45a1ccc86a")
 	)
 	(junction
+		(at 52.07 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d8ef97e-984a-4aee-8985-10f6d707e1a9")
+	)
+	(junction
 		(at 172.72 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4314,6 +4121,12 @@
 		(uuid "9f559436-334e-48ab-8069-924518355891")
 	)
 	(junction
+		(at 184.15 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afef4559-43d4-43f1-9b2a-130636228180")
+	)
+	(junction
 		(at 54.61 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4324,12 +4137,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bac0ebce-7e35-4731-942a-cb2b3ec1751e")
-	)
-	(junction
-		(at 149.86 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c0e1bfd1-dab4-4ade-b1d7-51bd209d7d02")
 	)
 	(junction
 		(at 93.98 44.45)
@@ -4360,12 +4167,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef06caa1-3e93-4afa-9814-73a9cf20f079")
-	)
-	(junction
-		(at 142.24 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f59b4730-fd66-45a3-a715-db6a046fad69")
 	)
 	(no_connect
 		(at 212.09 69.85)
@@ -4513,6 +4314,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 154.94) (xy 146.05 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26aafff0-525c-482f-966f-da824b35e298")
+	)
+	(wire
+		(pts
 			(xy 36.83 152.4) (xy 40.64 152.4)
 		)
 		(stroke
@@ -4643,36 +4454,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 146.05) (xy 133.35 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56843a3b-4f44-4a28-af0b-c1f9ed3804c9")
-	)
-	(wire
-		(pts
-			(xy 144.78 146.05) (xy 133.35 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5782a4e3-c4bf-48ac-893b-a69db6352c7a")
-	)
-	(wire
-		(pts
-			(xy 144.78 163.83) (xy 142.24 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b92eeed-bd20-49bc-8861-28697638427c")
-	)
-	(wire
-		(pts
 			(xy 172.72 119.38) (xy 160.02 119.38)
 		)
 		(stroke
@@ -4713,16 +4494,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 146.05) (xy 144.78 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "627dc3ce-1be4-43d2-a76f-660000bcea46")
-	)
-	(wire
-		(pts
 			(xy 149.86 74.93) (xy 157.48 74.93)
 		)
 		(stroke
@@ -4730,16 +4501,6 @@
 			(type default)
 		)
 		(uuid "66772bb8-d847-49f1-bc6f-4e4fb061d2ac")
-	)
-	(wire
-		(pts
-			(xy 144.78 154.94) (xy 157.48 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "679e2e89-7aa5-432c-95c3-5040c2f5ef45")
 	)
 	(wire
 		(pts
@@ -4853,16 +4614,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 154.94) (xy 144.78 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ec1882a-415a-484d-825b-474a1820f090")
-	)
-	(wire
-		(pts
 			(xy 82.55 24.13) (xy 90.17 24.13)
 		)
 		(stroke
@@ -4910,16 +4661,6 @@
 			(type default)
 		)
 		(uuid "a6e96bf8-00ca-4392-ba2e-6a396cd8a21b")
-	)
-	(wire
-		(pts
-			(xy 140.97 154.94) (xy 142.24 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa295d44-cc30-4d20-a137-9e8d60fd5661")
 	)
 	(wire
 		(pts
@@ -5053,17 +4794,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 162.56) (xy 142.24 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1a074d9-3b5d-4d2c-b96c-f040c3f74614")
-	)
-	(wire
-		(pts
-			(xy 52.07 59.69) (xy 52.07 64.77)
+			(xy 52.07 59.69) (xy 52.07 63.5)
 		)
 		(stroke
 			(width 0)
@@ -5080,6 +4811,16 @@
 			(type default)
 		)
 		(uuid "e38cd835-355c-4665-9189-7a7fa750a199")
+	)
+	(wire
+		(pts
+			(xy 52.07 63.5) (xy 52.07 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6282be6-0ce6-47bd-a885-f3ce168e54ce")
 	)
 	(wire
 		(pts
@@ -5110,16 +4851,6 @@
 			(type default)
 		)
 		(uuid "f4b3b460-bae6-46d0-90c3-c3fec1b1d552")
-	)
-	(wire
-		(pts
-			(xy 144.78 153.67) (xy 144.78 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f77be757-bc9c-44f7-b214-f913afd6b767")
 	)
 	(wire
 		(pts
@@ -5667,7 +5398,7 @@
 	)
 	(global_label "D_+5V"
 		(shape input)
-		(at 52.07 62.23 180)
+		(at 52.07 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5677,7 +5408,7 @@
 		)
 		(uuid "5b13def8-e5ec-47ac-8ff3-43c3920edf71")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.9767 62.23 0)
+			(at 42.9767 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5763,7 +5494,7 @@
 	)
 	(global_label "CV_Out"
 		(shape input)
-		(at 157.48 154.94 0)
+		(at 146.05 154.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5773,7 +5504,7 @@
 		)
 		(uuid "60904aa1-5af4-42f9-8273-3c9a569c9853")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.9966 154.94 0)
+			(at 155.5666 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6505,6 +6236,30 @@
 			)
 		)
 	)
+	(global_label "D_GND"
+		(shape input)
+		(at 44.45 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cdf4c63f-59a7-4372-aef0-0015ada49b2b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.3567 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "DEMUX_B"
 		(shape input)
 		(at 67.31 133.35 0)
@@ -6745,33 +6500,9 @@
 			)
 		)
 	)
-	(global_label "A_+5V"
-		(shape input)
-		(at 144.78 163.83 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ed22441a-7134-49da-b185-3752e882dd7f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.6919 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "A_GND"
 		(shape input)
-		(at 147.32 146.05 0)
+		(at 133.35 152.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6781,7 +6512,7 @@
 		)
 		(uuid "f20a92bc-0ce8-41ab-9f0e-ce888e80afaf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.2319 146.05 0)
+			(at 142.2619 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8143,110 +7874,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
-		(at 142.24 158.75 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3a0e5960-2cfa-481c-958e-71cd62c5c149")
-		(property "Reference" "D4"
-			(at 144.78 157.4799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 144.78 160.0199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 142.24 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 142.24 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 142.24 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 142.24 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 142.24 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "05ed5c7a-8db7-407b-9301-eaad5c77a341")
-		)
-		(pin "2"
-			(uuid "25d35c6e-c553-4912-a53b-fe80effa07c4")
-		)
-		(instances
-			(project "melodiasekvensseri"
-				(path "/88d7c3ef-0a1d-4476-9115-c0d0977d43dc"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MCP1700-5002E_TO:MCP1700-5002E_TO")
 		(at 132.08 40.64 0)
 		(mirror y)
@@ -9208,7 +8835,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "741f2067-f067-45e1-8cf8-aebb699a6fa2")
-		(property "Reference" "D3"
+		(property "Reference" "D2"
 			(at 53.34 157.4799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9272,7 +8899,7 @@
 		(instances
 			(project "melodiasekvensseri"
 				(path "/88d7c3ef-0a1d-4476-9115-c0d0977d43dc"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -10215,110 +9842,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
-		(at 144.78 149.86 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c446827b-0559-4f6b-8ab3-217ee3bb8dd4")
-		(property "Reference" "D5"
-			(at 147.32 148.5899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 147.32 151.1299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 144.78 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 144.78 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 144.78 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 144.78 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 144.78 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8a0bc411-ba91-41a0-bbe4-ad25d012927f")
-		)
-		(pin "2"
-			(uuid "02a4f28e-d25f-4e37-88e1-3b97f3158d7b")
-		)
-		(instances
-			(project "melodiasekvensseri"
-				(path "/88d7c3ef-0a1d-4476-9115-c0d0977d43dc"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 137.16 154.94 90)
 		(mirror x)
@@ -10400,7 +9923,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 149.86 67.31 0)
+		(at 184.15 48.26 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10410,8 +9933,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d37edd69-c3a6-49a2-9c10-a4c3cdd700d9")
-		(property "Reference" "TP_DAC_OUT1"
-			(at 152.4 62.7379 0)
+		(property "Reference" "TP_CV_OUT1"
+			(at 189.23 46.9899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10422,7 +9945,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 152.4 65.2779 0)
+			(at 189.23 49.5299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10432,8 +9955,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 154.94 67.31 0)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+			(at 184.15 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10444,7 +9967,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 67.31 0)
+			(at 184.15 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10455,7 +9978,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 149.86 67.31 0)
+			(at 184.15 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10471,7 +9994,89 @@
 		(instances
 			(project "melodiasekvensseri"
 				(path "/88d7c3ef-0a1d-4476-9115-c0d0977d43dc"
-					(reference "TP_DAC_OUT1")
+					(reference "TP_CV_OUT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 48.26 63.5 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e9e68090-d80d-473c-ae40-107ee0b8d172")
+		(property "Reference" "C15"
+			(at 50.038 70.358 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 50.038 67.818 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+			(at 52.07 64.4652 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 48.26 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fa371466-e708-4e31-8645-9ed02d4d3557")
+		)
+		(pin "1"
+			(uuid "564445d7-14e8-4558-932d-cbb7fd3393e9")
+		)
+		(instances
+			(project "melodiasekvensseri"
+				(path "/88d7c3ef-0a1d-4476-9115-c0d0977d43dc"
+					(reference "C15")
 					(unit 1)
 				)
 			)

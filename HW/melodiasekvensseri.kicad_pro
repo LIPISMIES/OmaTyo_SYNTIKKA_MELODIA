@@ -172,7 +172,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -184,7 +183,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -196,7 +194,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -548,8 +545,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {},
-    "netclass_assignments": {},
+    "net_colors": null,
+    "netclass_assignments": null,
     "netclass_patterns": [
       {
         "netclass": "Power",
@@ -664,12 +661,66 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -714,7 +765,7 @@
         "uuid": "88d7c3ef-0a1d-4476-9115-c0d0977d43dc"
       }
     ],
-    "used_designators": "#FLG1-7,#PWR1-8,#PWR13-15,#PWR25-28,Button_Decoder1,C1-14,D1-5,DAC1,IC1-4,J1-6,NT1-2,Opamp_Trimmer1,Output_Buffer1,R4-8,R22-23,Rotary_Encoder1,S1-9,Start/Stop1,TP1,TP_12V1,TP_A5V1,TP_AGND1,TP_CLOCK_IN1,TP_D5V1,TP_DAC_OUT1,TP_DGND1,Tempo_Pot1,U1-3,V2-3,VR1-2,XU2",
+    "used_designators": "R4-8,R22-23,#FLG1-7,IC1-4,J1-6,Rotary_Encoder1,#PWR1-8,#PWR13-15,#PWR25-28,D1-5,C1-15,Button_Decoder1,DAC1,NT1-2,Opamp_Trimmer1,Output_Buffer1,S1-9,Start/Stop1,TP1,TP_D5V1,TP_12V1,TP_DGND1,TP_A5V1,XU2,TP_AGND1,TP_CLOCK_IN1,TP_DAC_OUT1,Tempo_Pot1,U1-3,V2-3,VR1-2",
     "variants": []
   },
   "sheets": [
