@@ -1,5 +1,7 @@
 #include <Arduino.h>
 
+#include "clock_input.h"
+#include "gate_output.h"
 #include "mcp4821.h"
 #include "potentiometer.h"
 #include "rotary_encoder.h"
@@ -10,6 +12,8 @@ void setup() {
 
 	mcp4821Begin();
 	potentiometerBegin();
+	clockInputBegin();
+	gateOutputBegin();
 	sequenceBegin();
 	rotaryEncoderBegin();
 
@@ -18,8 +22,11 @@ void setup() {
 
 void loop() {
 	const unsigned long now = millis();
+	const uint16_t tempoReading = potentiometerUpdate();
+	const bool externalTick = clockInputUpdate(now, tempoReading);
 
-	sequenceSetStepIntervalMs(potentiometerUpdate());
-	sequenceUpdate(now);
+	sequenceSetTempoBpm(clockInputInternalBpm(tempoReading));
+	sequenceUpdate(now, clockInputIsExternal(), externalTick);
+	gateOutputUpdate(now);
 	sequenceApplyEncoderDelta(rotaryEncoderUpdate());
 }

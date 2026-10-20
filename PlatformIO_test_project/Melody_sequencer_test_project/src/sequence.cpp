@@ -3,6 +3,7 @@
 #include <Arduino.h>
 
 #include "board_pins.h"
+#include "gate_output.h"
 #include "mcp4821.h"
 
 namespace {
@@ -30,9 +31,10 @@ bool running = false;
 uint8_t currentStep = 0;
 uint8_t selectedStep = 0;
 int8_t voltageTicks[STEP_COUNT] = {12, 12, 12};
-uint16_t stepIntervalMs = 500;
+uint16_t tempoBpm = 120;
 unsigned long lastStepMs = 0;
 unsigned long lastButtonScanMs = 0;
+bool previousExternalClock = false;
 
 bool pressedEvent(ButtonState &button, unsigned long now) {
 	const bool reading = digitalRead(button.pin);
@@ -104,9 +106,6 @@ void sequenceBegin() {
 	pinMode(BoardPins::DEMUX_A, OUTPUT);
 	pinMode(BoardPins::DEMUX_B, OUTPUT);
 	pinMode(BoardPins::DEMUX_C, OUTPUT);
-	pinMode(BoardPins::GATE_OUT, OUTPUT);
-	digitalWrite(BoardPins::GATE_OUT, LOW);
-	pinMode(BoardPins::CLOCK_IN, INPUT);
 	pinMode(BoardPins::ENCODER_SWITCH, INPUT_PULLUP);
 	pinMode(BoardPins::START_STOP, INPUT_PULLUP);
 	pinMode(BoardPins::STEP_IN, INPUT_PULLUP);
@@ -114,13 +113,16 @@ void sequenceBegin() {
 	outputStepVoltage(currentStep);
 }
 
-void sequenceUpdate(unsigned long now) {
+void sequenceUpdate(unsigned long now, bool externalClock, bool externalTick) {
+	bool startedThisUpdate = false;
 	if (pressedEvent(startButton, now)) {
 		running = !running;
 		if (running) {
+			startedThisUpdate = true;
 			lastStepMs = now;
 			selectLedChannel(currentStep);
 			outputStepVoltage(currentStep);
+			gateOutputTrigger(now);
 			Serial.println("Sequence started");
 		} else {
 			Serial.println("Sequence stopped");
@@ -132,11 +134,23 @@ void sequenceUpdate(unsigned long now) {
 		scanStepButtons(now);
 	}
 
-	if (running && now - lastStepMs >= stepIntervalMs) {
+	if (externalClock != previousExternalClock) {
+		lastStepMs = now;
+		previousExternalClock = externalClock;
+	}
+
+	const unsigned long stepIntervalMs = 60000UL / tempoBpm;
+	const bool stepDue = externalClock
+			? externalTick
+			: now - lastStepMs >= stepIntervalMs;
+	if (running && !startedThisUpdate && stepDue) {
 		currentStep = (currentStep + 1) % STEP_COUNT;
 		selectLedChannel(currentStep);
 		outputStepVoltage(currentStep);
-		lastStepMs = now;
+		gateOutputTrigger(now);
+		if (!externalClock) {
+			lastStepMs = now;
+		}
 	}
 }
 
@@ -163,6 +177,12 @@ void sequenceApplyEncoderDelta(int8_t delta) {
 	}
 }
 
-void sequenceSetStepIntervalMs(uint16_t intervalMs) {
-	stepIntervalMs = intervalMs;
+void sequenceSetTempoBpm(uint16_t bpm) {
+	if (bpm < 50) {
+		tempoBpm = 50;
+	} else if (bpm > 500) {
+		tempoBpm = 500;
+	} else {
+		tempoBpm = bpm;
+	}
 }
