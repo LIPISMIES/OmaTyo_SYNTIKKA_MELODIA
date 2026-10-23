@@ -69,7 +69,13 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -156,7 +162,7 @@
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -206,7 +212,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -233,7 +241,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -768,7 +781,7 @@
         "uuid": "88d7c3ef-0a1d-4476-9115-c0d0977d43dc"
       }
     ],
-    "used_designators": "#FLG1-7,#PWR1-8,#PWR13-16,#PWR25-28,Button_Decoder1,C1-17,D1-5,DAC1,H1-4,IC1-4,J1-6,NT1-2,Opamp_Trimmer1,Output_Buffer1,R4-8,R22-23,Rotary_Encoder1,S1-9,Start/Stop1,TP1,TP_12V1,TP_A5V1,TP_AGND1,TP_CLOCK_IN1,TP_D5V1,TP_DAC_OUT1,TP_DGND1,Tempo_Pot1,U1-3,V2-3,VR1-2,XU2",
+    "used_designators": "#FLG1-7,#PWR1-8,#PWR13-16,#PWR25-28,Button_Decoder1,C1-18,D1-5,DAC1,H1-4,IC1-4,J1-6,NT1-2,Opamp_Trimmer1,Output_Buffer1,R4-8,R22-23,Rotary_Encoder1,S1-9,Start/Stop1,TP1,TP_12V1,TP_A5V1,TP_AGND1,TP_CLOCK_IN1,TP_D5V1,TP_DAC_OUT1,TP_DGND1,Tempo_Pot1,U1-3,V2-3,VR1-2,XU2",
     "variants": []
   },
   "sheets": [

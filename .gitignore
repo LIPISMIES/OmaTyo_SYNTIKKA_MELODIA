@@ -74,3 +74,6 @@ Thumbs.db
 *.xln
 *.zip
 *.tar.gz
+HW/fabrication-toolkit-options.json
+/HW/production
+/HW/pcbway_production

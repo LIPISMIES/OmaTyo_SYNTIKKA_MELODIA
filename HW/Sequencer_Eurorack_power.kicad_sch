@@ -2431,7 +2431,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
 			(at 245.11 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -3277,7 +3277,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
 			(at 213.36 91.44 0)
 			(hide yes)
 			(show_name no)
